@@ -1,2 +1,0 @@
-[console_scripts]
-particulas-gui = Particulas_Elementales:main
