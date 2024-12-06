@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: Particulas_Elementales
+Version: 1.0.0
+Summary: Un paquete para gestionar y visualizar partículas subatómicas con una interfaz gráfica
+Home-page: https://github.com/IvanDavila777/Particulas-Elementales
+Author: Ivan Jafet Davila Vergara
+Author-email: davilaivan777@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Education
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt5>=5.15
+Requires-Dist: pandas>=1.0
+
+# PartÃ­culas Elementales
+
+**PartÃ­culas Elementales** es un paquete en Python diseÃ±ado para gestionar informaciÃ³n sobre partÃ­culas subatÃ³micas, como electrones, protones y bosones. Este paquete estÃ¡ enfocado en la enseÃ±anza y comprensiÃ³n de conceptos bÃ¡sicos de fÃ­sica de partÃ­culas, ofreciendo herramientas para agregar, visualizar y buscar partÃ­culas.
+
+---
+
+## **CaracterÃ­sticas**
+
+- **GestiÃ³n de partÃ­culas**: Crear, agregar y almacenar informaciÃ³n sobre partÃ­culas subatÃ³micas (Fermiones y Bosones).
+- **Interfaz grÃ¡fica**: Incluye una GUI (Interfaz GrÃ¡fica de Usuario) para interactuar con los datos de forma amigable.
+- **Tabla de partÃ­culas**: Visualiza todas las partÃ­culas en una tabla ordenada.
+- **BÃºsqueda de partÃ­culas**: Busca informaciÃ³n detallada de una partÃ­cula especÃ­fica.
+
+---
+
+## **InstalaciÃ³n**
+
+### Requisitos previos
+1. AsegÃºrate de tener **Python 3.8+** instalado en tu sistema.
+2. Instala las siguientes dependencias:
+   ```bash
+   pip install PyQt5 pandas
+
+-----------------------------------------------------
+## Creado por Ivan Jafet Davila Vergara
+
+## Correo: davilaivan777@gmail.com
+## GitHub: IvanDavila777
+-----------------------------------------------------

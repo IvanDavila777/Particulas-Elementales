@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\title{Particulas Elementales: Estructura y Documentación}
+\begin{document}
+\maketitle
+\section{Estructura del Paquete}
+La estructura ideal para el paquete \texttt{First-Package} es la siguiente:
+
+\begin{verbatim}
+PARTICULAS ELEMENTALES/
+├── Particles_package/
+│   ├── __init__.py
+│   ├── functions.py
+│   ├── particles.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_functions.py
+│   └── test_particles.py
+├── README.md
+├── data.py
+├── main.py
+├── Particulas_Elementales.py
+├── setup.py
+├── LICENSE
+├── .gitignore
+└── requirements.txt
+\end{verbatim}
+
+\section{Descripción de Archivos}
+\begin{itemize}
+    \item \texttt{Particles_package/\_\_init\_\_.py}: Inicializa el paquete \texttt{Particles_package}.
+    \item \texttt{Particles_package/functions.py} y \texttt{Particles_package/particles.py}: Contienen la lógica y funciones del paquete.
+    \item \texttt{tests/}: Directorio que contiene los archivos de prueba para cada módulo.
+    \item \texttt{README.md}: Documentación básica del paquete.
+    \item \texttt{data.py}: Contiene los datos de las particulas elementales.
+    \item \texttt{main.py}: Contiene la funcion necesari para tabular las particulas.
+    \item \texttt{Particulas_Elementales.py}: Contiene el programa que realiza la interfaz grafica.
+    \item \texttt{setup.py}: Script de configuración para instalar el paquete.
+    \item \texttt{LICENSE}: Documento de licencia del paquete.
+    \item \texttt{.gitignore}: Archivos y carpetas que Git debería ignorar.
+    \item \texttt{requirements.txt}: Lista de dependencias del paquete.
+\end{itemize}
+
+\section{Instalación y Ejecución}
+Para instalar este paquete de manera local:
+
+\begin{verbatim}
+pip install -e .
+\end{verbatim}
+
+Para ejecutar funciones:
+
+\begin{verbatim}
+    from Particles_package import functions
+    functions.add_particle()
+\end{verbatim}
+
+\section{Uso de Git y GitHub en Visual Studio Code}
+\begin{enumerate}
+    \item Inicializar Git en el terminal de VS Code: \texttt{git init}.
+    \item Conectar con GitHub: Crear un repositorio y agregarlo como remoto.
+    \item Añadir y confirmar cambios: \texttt{git add .}, \texttt{git commit -m "mensaje"}.
+    \item Subir el código: \texttt{git push -u origin main}.
+\end{enumerate}
+
+\section{Uso del Paquete por un Usuario Externo}
+Un usuario puede instalar el paquete ejecutando:
+
+\begin{verbatim}
+pip install git+https://github.com/IvanDavila777/Particulas_Elementales.git
+\end{verbatim}
+
+Luego puede usarlo como:
+
+\begin{verbatim}
+from Particles_package import functions
+functions.add_particle()
+\end{verbatim}
+
+\end{document}
